@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background: #E2E2E2; 
+    font-family: 'Sniglet', cursive;;
+}
+
+.portfolio{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+#cabecera{
+    background: #E2E2E2; 
+    font-family: 'Srisakdi', cursive;
+}
+
+.portfolio h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px 60px;
+}
+
+.portfolio-container{
+    display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+}
+
+.portfolio.item{
+    width: 30%;
+    position: relative;
+}
