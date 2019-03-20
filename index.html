@@ -6,29 +6,43 @@
 	<title>Portfolio</title>
 	<link rel="stylesheet" href="estilos.css">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico|Srisakdi" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" 
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+	crossorigin="anonymous"></script>
+	<script src="js/controlador.js"></script>
+	<script src="js/index.js"></script>
 </head>
 
 <body>
+
+	<br>
+
 	<section class="portfolio">
 		<h1 id="titulo">Juan Carlos Chica Ureña</h1>
+	</section>
+
+	<br>
+	<br>
+
+	<section id="panel_inicio" class="portfolio">
 		<div class="portfolio-container" id="panel_principal">
 
-			<section class="portfolio-item">
+			<section id="menu_personal" class="portfolio-item">
 				<img src="img/1.jpg" alt="" class="portfolio-img">
 				<section class="portfolio-text">
 					<h2>Información Personal</h2>
 				</section>
 			</section>
 
-			<section class="portfolio-item">
+			<section id="menu_trabajos" class="portfolio-item">
 				<img src="img/2.jpg" alt="" class="portfolio-img">
 				<section class="portfolio-text">
 					<h2>Mis Trabajos</h2>
 				</section>
 			</section>
 
-			<section class="portfolio-item">
+			<section id="menu_contacto" class="portfolio-item">
 				<img src="img/3.jpg" alt="" class="portfolio-img">
 				<section class="portfolio-text">
 					<h2>Contacta Conmigo</h2>
@@ -37,6 +51,26 @@
 
 		</div>
 	</section>
+
+	<section id="panel_personal" class="panel">
+		<h1 id="titulo">Información Personal</h1>
+		<p>Bienvenido/a, este es el portfolio de Juan Carlos Chica Ureña, estudiante de DAM (Desarrollo de
+		Aplicaciones Multiplataforma).</p>
+		<p>Soy de Jaén capital, me encanta tanto la programación como los videojuegos, también soy un gran
+		amante del boxeo, el cual, me ha inculcado valores como el esfuerzo y el sacrificio.</p>
+	</section>
+
+	<section id="panel_trabajos" class="panel">
+		<h1 id="titulo">Mis Trabajos</h1>
+		<a href=https://github.com/juancarloschica>Puedes ver mis trabajos en este enlace de Github.</a>
+	</section>
+
+	<section id="panel_contacto" class="panel">
+		<h1 id="titulo">Contacta Conmigo</h1>
+		<p>Para contactar conmigo hazlo a través de mi correo electrónico personal:</p>
+		<p>juancarlos.boxing@gmail.com</p>
+	</section>
+
 </body>
 
 </html>

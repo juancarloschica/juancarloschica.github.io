@@ -11,14 +11,16 @@ img{
 }
 
 body{
-	background: #E2E2E2;
-    font-family: 'Srisakdi', cursive;
+	background: rgb(199, 199, 199);
     font-family: 'Pacifico', cursive;
 }
 
 #titulo{
-	background: #E2E2E2;
-    font-family: 'Srisakdi', cursive;
+	background: rgb(199, 199, 199);
+	font-family: 'Srisakdi', cursive;
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
 }
 
 .portfolio{
