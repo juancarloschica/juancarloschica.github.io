@@ -21,8 +21,7 @@ body{
 	border-radius: 30%;
 	max-width: 475px;
 	margin: auto;
-	color: rgb(202, 202, 202);
-	background: rgba(14, 85, 81, 0.404);
+	color: rgb(0, 0, 0);
 }
 
 .portfolio{
@@ -97,7 +96,7 @@ body{
 }
 
 a {
-	color: rgb(202, 202, 202);
+	color: rgb(13, 42, 95);
 }
 
 #atras {
@@ -107,6 +106,5 @@ a {
 	border-radius: 30%;
 	max-width: 900px;
 	margin: auto;
-	color: rgb(202, 202, 202);
-	background: rgba(14, 85, 81, 0.589);
+	color: rgb(0, 0, 0);
 }
